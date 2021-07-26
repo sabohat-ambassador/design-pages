@@ -8,8 +8,10 @@
     }
     .col-lg-4 {
         width: 50%;
-        padding: 0 95px;
+        padding: 0 68px;
     }
+
+    
     .col-lg-6 {
         width: 100%;
         padding: 0 15px;
@@ -40,6 +42,9 @@
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
         border-top-right-radius: 0;
+    }
+    .card__text{
+        font-size: 1.28rem;
     }
     .card__content{
         margin-top: 80px;
