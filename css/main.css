@@ -65,6 +65,10 @@ body{
     background: #FDF3F0;
     border-radius: 15px;
     margin-bottom: 32px;
+    transition: all 500ms ease-in-out;
+}
+.card:hover{
+    background: #E7816B;
 }
 
 .card__image {
@@ -83,6 +87,9 @@ body{
     font-weight: 500;
     letter-spacing: 5px;
 }
+.card:hover .card__title{
+    color: #FFFFFF;
+}
 
 .card__text {
     font-size: 1.14rem;
@@ -90,6 +97,9 @@ body{
     width: 280px;
     margin: 0 auto;
     padding-bottom: 32px;
+}
+.card:hover .card__text{
+    color: #FFFFFF;
 }
 
 

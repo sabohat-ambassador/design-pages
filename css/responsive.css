@@ -1,0 +1,120 @@
+@media(max-width: 1199px){
+
+    .container {
+        margin: 0 15px;
+    }
+    .page-title{
+        background-size: contain;
+    }
+    .col-lg-4 {
+        width: 50%;
+        padding: 0 95px;
+    }
+    .col-lg-6 {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .service__image {
+        width: 50%;
+    }
+    .row {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media(max-width: 991px){
+    .page-title{
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+    }
+    .col-lg-4{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .card{
+        display: flex;
+    }
+    .card__image{
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0;
+    }
+    .card__content{
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service__image {
+        width: 689px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+   .col-lg-6{
+       margin-bottom: 24px;
+   }
+  .service__info{
+      bottom: 70px;
+  }
+}
+
+@media(max-width: 767px){
+    .card{
+        flex-wrap: wrap;
+    }
+    .col-lg-4{
+        padding: 0 85px;
+    }
+    .card__image{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+    }
+    .card__content{
+        margin-top: 16px;
+    }
+    .service__image{
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+    }
+    .service__info {
+        bottom: 90px;
+    }
+}
+
+@media(max-width: 565px){
+    .container{
+        margin: 0;
+    }
+    .page-title{
+        border-radius: 0;
+    }
+    .col-lg-4 {
+        padding: 0 58px;
+    }
+    .page-title{
+        padding: 95px 24px;
+    }
+}
+
+@media(max-width: 480px){
+    .col-lg-4 {
+        padding: 0 49px;
+    }
+    .page-title__text{
+        font-size: 1rem;
+    }
+    .service__image{
+        object-fit: cover;
+    }
+    .service__title{
+        font-size: 2rem;
+    }
+    .service__text{
+        font-size: 1rem;
+    }
+}
+
